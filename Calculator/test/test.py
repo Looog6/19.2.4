@@ -1,20 +1,9 @@
-# 1. PyCharm —> Preferences —> Tools —> Python integration tools и в разделе Testing выбираем PyTest.
-
 import pytest
-
 from Calculator.app.calc import Calculator
 
 
-# def test_sum():
+# def test_sum():              #тест
 #     assert 2 + 2 == 4
-
-# ============================= test session starts =============================
-# collecting ... collected 1 item
-#
-# test.py::test_sum PASSED                                                 [100%]
-#
-# ============================== 1 passed in 0.02s ==============================
-
 
 class TestCalc:
     def setup(self):
