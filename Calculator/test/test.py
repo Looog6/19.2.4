@@ -8,7 +8,7 @@ from Calculator.app.calc import Calculator
 class TestCalc:
     def setup(self):
         self.calc = Calculator()
-
+# Положительные тесты
     def test_multiply_success(self):
         assert self.calc.multiply(5, 5) == 25
 
@@ -20,7 +20,7 @@ class TestCalc:
 
     def test_adding_success(self):
         assert self.calc.adding(2, 2) == 4
-
+# Отрицателные тесты
     def test_multiply_unsuccess(self):
         assert self.calc.multiply(5, 5) == 20
 
