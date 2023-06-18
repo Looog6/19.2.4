@@ -35,7 +35,7 @@ class TestCalc:
 
     def test_zero_division(self):
         with pytest.raises(ZeroDivisionError):
-            self.calc.division(1, 0)
+            self.calc.division(self,1,0)
 
     def teardown(self):
         print('Выполнение метода Teardown')
