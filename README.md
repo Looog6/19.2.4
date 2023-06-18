@@ -25,6 +25,7 @@ def test_sum():
 Запустите и посмотрите результат работы:
 
 ============================= test session starts =============================
+
 collecting ... collected 1 item
 
 test.py::test_sum PASSED                                                 [100%]
